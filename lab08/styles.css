@@ -1,0 +1,37 @@
+body {
+    background-color: #EEDCE4;
+    color: #AC9582;
+}
+
+p {
+    color:#AC9582;
+}
+a {
+    color:#E27FAA;
+}
+h1, h2{
+    color:#E27FAA;
+}
+nav{
+    background-color: #F0E8E2;
+    padding:10px;
+    margin-bottom:30px;
+}
+nav a {
+    color: #c99ba5;
+}
+nav a:hover {
+    background-color:#AC9582;
+}
+.quote {
+    float:right;
+}
+.top, .bottom {
+    display: flex;
+    background-color:#F0E8E2;
+    margin: 10px;
+    border-radius: 1em;
+    padding: 40px;
+   
+}
+.address, .linkedin, .form, .map  {flex:1;}
