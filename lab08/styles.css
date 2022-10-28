@@ -29,9 +29,9 @@ nav a:hover {
 .top, .bottom {
     display: flex;
     background-color:#F0E8E2;
-    margin: 10px;
+    margin: 20px;
     border-radius: 1em;
     padding: 40px;
-   
 }
+
 .address, .linkedin, .form, .map  {flex:1;}
