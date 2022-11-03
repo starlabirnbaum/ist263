@@ -1,0 +1,66 @@
+body {
+    background-color: #EEDCE4;
+    color: #AC9582;
+}
+
+p {
+    color:#AC9582;
+}
+a {
+    color:#E27FAA;
+}
+h1, h2{
+    color:#E27FAA;
+}
+h1 {
+    text-align: center;
+}
+nav{
+    background-color: #F0E8E2;
+    padding:10px;
+    margin-bottom:30px;
+}
+nav a {
+    color: #c99ba5;
+}
+nav a:hover {
+    background-color:#AC9582;
+}
+.quote {
+    float:right;
+}
+.top, .bottom {
+    display: flex;
+    background-color:#F0E8E2;
+    margin: 20px;
+    border-radius: 1em;
+    padding: 40px;
+}
+.address, .linkedin, .form, .map  {flex:1;}
+
+.skills{
+    display:flex;
+    flex-basis: 75%;
+    justify-content: space-around;
+    text-align: center;
+}
+.aside {
+    background-color:  #F0E8E2;
+    color: #AC9582;
+    border-radius: 1em;
+    flex-basis: 25%;
+    justify-content: flex-end;
+    padding: 20px;
+    width: 50%;
+    margin-right:35px;
+    
+}
+.flexbox2 {
+    display: flex;
+    justify-content: center;   
+    margin: 20px;
+}
+.skilltext {
+    padding:45px;
+    margin-bottom: 40px;
+}
