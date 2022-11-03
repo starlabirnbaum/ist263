@@ -36,6 +36,9 @@ nav a:hover {
     border-radius: 1em;
     padding: 40px;
 }
+.bottom {
+    flex-wrap: wrap;
+}
 .address, .linkedin, .form, .map  {flex:1;}
 
 .skills{
@@ -64,3 +67,14 @@ nav a:hover {
     padding:45px;
     margin-bottom: 40px;
 }
+.banner {
+    max-width: 100%;;
+}
+@media only screen and (max-width: 600px) {
+    nav a {max-width: 100%;}
+    nav a {display: block;}
+    span {display:none;}
+    nav a {padding: 1%;}
+    }
+
+
