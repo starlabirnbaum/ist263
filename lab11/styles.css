@@ -31,7 +31,7 @@ nav a:hover {
 }
 .top, .bottom {
     display: flex;
-    background-color:#F0E8E2;
+    background-color:#f6f2ee;
     margin: 20px;
     border-radius: 1em;
     padding: 40px;
@@ -48,7 +48,7 @@ nav a:hover {
     text-align: center;
 }
 .aside {
-    background-color:  #F0E8E2;
+    background-color:  #f6f2ee;
     color: #AC9582;
     border-radius: 1em;
     flex-basis: 25%;
