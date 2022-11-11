@@ -1,0 +1,90 @@
+body {
+    background-color: #EEDCE4;
+    color: #AC9582;
+}
+
+p {
+    color:#AC9582;
+}
+a {
+    color:#E27FAA;
+}
+h1, h2{
+    color:#E27FAA;
+}
+h1 {
+    text-align: center;
+}
+nav{
+    background-color: #F0E8E2;
+    padding:10px;
+    margin-bottom:30px;
+}
+nav a {
+    color: #c99ba5;
+}
+nav a:hover {
+    background-color:#AC9582;
+}
+.quote {
+    float:right;
+}
+.top, .bottom {
+    display: flex;
+    background-color:#F0E8E2;
+    margin: 20px;
+    border-radius: 1em;
+    padding: 40px;
+}
+.bottom {
+    flex-wrap: wrap;
+}
+.address, .linkedin, .form, .map  {flex:1;}
+
+.skills{
+    display:flex;
+    flex-basis: 75%;
+    justify-content: space-around;
+    text-align: center;
+}
+.aside {
+    background-color:  #F0E8E2;
+    color: #AC9582;
+    border-radius: 1em;
+    flex-basis: 25%;
+    justify-content: flex-end;
+    padding: 20px;
+    width: 50%;
+    margin-right:35px;
+    
+}
+.flexbox2 {
+    display: flex;
+    justify-content: center;   
+    margin: 20px;
+}
+.skilltext {
+    padding:45px;
+    margin-bottom: 40px;
+}
+.banner {
+    max-width: 100%;;
+}
+@media only screen and (max-width: 600px) {
+    nav a {max-width: 100%;}
+    nav a {display: block;}
+    span {display:none;}
+    nav a {padding: 1%;}
+    }
+    .skip {
+        background-color: #e59ecc;
+        padding: 5px;
+        border: 1px solid black;
+        position: absolute;
+        top: 30px;
+        left: -999px; /* pushes it off screen */
+    }
+    /* focus is a psuedo class that means the element has been tabbed to */
+    .skip:focus {
+        left: 10px;
+    }
