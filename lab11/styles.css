@@ -1,10 +1,10 @@
 body {
-    background-color: #EEDCE4;
-    color: #AC9582;
+    background-color: #f7eef2;
+    color: #997d66;
 }
 
 p {
-    color:#AC9582;
+    color:#997d66;
 }
 a {
     color:#E27FAA;
@@ -24,7 +24,7 @@ nav a {
     color: #c99ba5;
 }
 nav a:hover {
-    background-color:#AC9582;
+    background-color:#997d66;
 }
 .quote {
     float:right;
