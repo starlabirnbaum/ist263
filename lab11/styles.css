@@ -50,7 +50,7 @@ nav a:hover {
 }
 .aside {
     background-color:  #f6f5f4;
-    color: #AC9582;
+    color: #725d4b;
     border-radius: 1em;
     flex-basis: 25%;
     justify-content: flex-end;
@@ -78,7 +78,7 @@ nav a:hover {
     nav a {padding: 1%;}
     }
     .skip {
-        background-color: E27FAA;
+        background-color:#732abb;
         padding: 5px;
         border: 1px solid black;
         position: absolute;
