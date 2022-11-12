@@ -7,11 +7,11 @@ p {
     color:#725d4b;
 }
 a {
-    color:#de6e9e;
+    color:#d54483;
 }
 
 h1, h2{
-    color:#de6e9e;
+    color:#d54483;
 }
 h1 {
     text-align: center;
@@ -22,7 +22,7 @@ nav{
     margin-bottom:30px;
 }
 nav a {
-    color: #de6e9e;
+    color: #d54483;
 }
 nav a:hover {
     background-color:#725d4b;
