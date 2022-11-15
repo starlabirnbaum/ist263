@@ -1,5 +1,5 @@
 body {
-    background-color: #f3edf9;
+    background-color: #f5e6e8;
     color: #725d4b;
 }
 
@@ -7,22 +7,22 @@ p {
     color:#725d4b;
 }
 a {
-    color:#732abb;
+    color:#f75590;
 }
 
 h1, h2{
-    color:#732abb;
+    color:#f75590;
 }
 h1 {
     text-align: center;
 }
 nav{
-    background-color: #f6f5f4;
+    background-color: #fff8f0;
     padding:10px;
     margin-bottom:30px;
 }
 nav a {
-    color: #732abb;
+    color: #f75590;
 }
 nav a:hover {
     background-color:#725d4b;
@@ -32,7 +32,7 @@ nav a:hover {
 }
 .top, .bottom {
     display: flex;
-    background-color:#f6f5f4;
+    background-color:#fff8f0;
     margin: 20px;
     border-radius: 1em;
     padding: 40px;
@@ -49,7 +49,7 @@ nav a:hover {
     text-align: center;
 }
 .aside {
-    background-color:  #f6f5f4;
+    background-color:  #fff8f0;
     color: #725d4b;
     border-radius: 1em;
     flex-basis: 25%;
@@ -78,7 +78,7 @@ nav a:hover {
     nav a {padding: 1%;}
     }
     .skip {
-        background-color:#732abb;
+        background-color:#f75590;
         padding: 5px;
         border: 1px solid black;
         position: absolute;
