@@ -1,5 +1,5 @@
 body {
-    background-color: #f5e6e8;
+    background-color: #fdecef;
     color: #725d4b;
 }
 
@@ -17,7 +17,7 @@ h1 {
     text-align: center;
 }
 nav{
-    background-color: #fff8f0;
+    background-color: #FFFCF8;
     padding:10px;
     margin-bottom:30px;
 }
@@ -32,7 +32,7 @@ nav a:hover {
 }
 .top, .bottom {
     display: flex;
-    background-color:#fff8f0;
+    background-color:#FFFCF8;
     margin: 20px;
     border-radius: 1em;
     padding: 40px;
@@ -49,7 +49,7 @@ nav a:hover {
     text-align: center;
 }
 .aside {
-    background-color:  #fff8f0;
+    background-color: #FFFCF8;
     color: #725d4b;
     border-radius: 1em;
     flex-basis: 25%;
