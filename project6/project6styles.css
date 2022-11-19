@@ -17,7 +17,7 @@
     width: 50%;
 }
 nav{
-    background-color: #FFFCF8;
+    background-color: #F5EBEE;
     padding:10px;
     margin-bottom:30px;
 }
@@ -37,7 +37,7 @@ nav{
     
 }
 nav a {
-    color: #d95990;
+    color: #725d4b;
 }
 h1, h2, p, ul {
     font-family: 'Raleway', sans-serif;
