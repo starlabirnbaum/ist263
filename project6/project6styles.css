@@ -1,0 +1,104 @@
+.resume {
+    display: flex;
+    
+}
+.left, .right {
+    flex: 1;
+    padding: 30px;
+    margin: 45px;
+}
+.one, .two, .three {
+    color:#E27FAA;
+}
+.wordmark {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+nav{
+    background-color: #FFFCF8;
+    padding:10px;
+    margin-bottom:30px;
+}
+.form{
+    padding: 30px;
+    margin: 45px;
+    background-color: #E27FAA;
+    padding-right: 4em;
+    border-radius: 10px;
+}
+.form1 {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    
+}
+nav a {
+    color: #E27FAA;
+}
+h1, h2, p, ul {
+    font-family: 'Raleway', sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    .resume {flex-wrap: wrap;}
+    #submit {width: 35%;}
+    }
+#fullname, #reason, #phonenumber {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border-radius: 5px;
+        border: 0;
+    }
+#submit {
+    width: 20%;
+    padding: 5px;
+}
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skills{
+    display:flex;
+    flex-basis: 75%;
+    justify-content: space-around;
+    text-align: center;
+}
+.aside {
+    background-color: #FFFCF8;
+    color: #725d4b;
+    border-radius: 1em;
+    flex-basis: 25%;
+    justify-content: flex-end;
+    padding: 20px;
+    width: 50%;
+    margin-right:35px;
+    
+}
+.flexbox2 {
+    display: flex;
+    justify-content: center;   
+    margin: 20px;
+}
+.pink {
+    background-color:#F5EBEE;
+}
+.intro {
+    padding: 2em;
+    margin: 2.5em;
+    color: #725d4b;
+}
+.hillel {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center {
+    text-align: center;
+}
