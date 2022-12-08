@@ -134,9 +134,11 @@ a {
 .hillel1 {
     float: left;
 }
-.clear {
-    clear: both;
-}
 .sixtysecond1 {
     float: right;
+}
+.pink1 {
+    background-color: #F7B2D1;
+    display: flex;
+    flex: 1;
 }
