@@ -9,6 +9,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<script>
+       function WorkOff () {
+            document.getElementById("hillel").style.display = "none";
+            document.getElementById("sixtysecond").style.display = "none";
+            document.getElementById("campaign").style.display = 'none';
+        }
+        function HillelOn () {
+            document.getElementById("hillel").style.display = "block";
+        }
+        function SixtySecondOn () {
+            document.getElementById("sixtysecond").style.display = "block";
+        }
+        function CampaignOn () {
+            document.getElementById("campaign").style.display = "block";
+        }
+</script>
 </head>
 <body>
     <nav>
@@ -23,39 +39,94 @@
         Hi! I am Starla Birnbaum, and I am a junior at Syracuse University majoring in Advertising, and double minoring in Information Management and Technology and Political Science. In Advertising, I am extremely interested in the <strong> digital </strong> and <strong> strategy</strong> aspects, and my knowledge of technology and data gives me a complete picture of those parts. Through my Advertising and Graphic Design background, I am proficient in the following softwares:
     </p> 
     <div class="flexbox2">
-        <div class= "skills">
-            <div>
-                <img src="../images/photoshop.svg" alt="photoshop logo" height=100 width=95><br>
-                Adobe Photoshop <br>
+        <div class= "fb2">
+            <div class="ps">
+                <img src="../media/ps.png" alt="photoshop logo">
+                <p> Adobe Photoshop</p>
             </div>
-            <div>
-                <img src="../images/indesign.svg" alt="indesign logo" height=100 width=95><br>
-                Adobe Indesign <br>
+            <div class="in">
+                <img src="../media/indesign.png" alt="indesign logo">
+                <p>Adobe Indesign</p>
             </div>
-            <div>
-                <img src="../images/html.svg" alt="html logo" height=100 width=95><br>
-                HTML <br>
+            <div class="xd">
+                <img src="../media/xd.png" alt="XD Logo">
+                <p>Adobe XD</p>
             </div>
-            <div>
-                <img src="../images/css.svg" alt="css logo" height=100 width=95><br>
-                CSS <br>
+            <div class="ai">
+                <img src="../media/ai.png" alt="Adobe Illustrator Logo">
+                <p>Adobe Illustrator</p>
             </div>
-            <div>
-                <img src="../images/excel.svg" alt="excel logo" height=100 width=95><br>
-                Microsoft Excel <br>
+            <div class="pr">
+                <img src="../media/pr.png" alt="Adobe Premiere Logo">
+                <p>Adobe Premiere</p>
+            </div>
+            <div class="canva">
+                <img src="../media/canva.png" alt="Canva Logo">
+                <p>Canva</p>
             </div>
         </div>
-            <div class="aside">
-                    <h2>Other Skills</h2>
-                    MRI Simmons <br>
-                    GWI <br>
-                    Commspoint <br>
-                    eMarketer <br>
-                    Adobe XD <br>
-                    Adobe Illustrator <br>
+        <div class="fb3">
+            <div class="html">
+                <img src="../media/html.png" alt="html logo">
+                <p> HTML</p>
             </div>
-    </div>
+            <div class="css">
+                <img src="../media/css.png" alt="css logo">
+                <p>CSS</p>
+            </div>
+            <div class="excel">
+                <img src="../media/excel.png" alt="excel logo">
+                <p>Microsoft Excel</p>
+            </div>
+            <div class="ms">
+                <img src="../media/ms.png" alt="microsoft office logo">
+                <p>Microsoft Office</p>
+            </div>
+            <div class="gwi">
+                <img src="../media/gwi.png" alt="gwi logo">
+                <p>Global Web Index</p>
+            </div>
+            <div class="mintel">
+                <img src="../media/mintel.png" alt="Mintel Logo">
+                <p>Mintel</p> 
+            </div>
+        </div>
+        </div>
+        <div class="fb4">
+            <div class="simmons">
+                <img src="../media/simmons.png" alt="MRI Simmons Logo">
+                <p>MRI Simmons</p>
+            </div>
+            <div class="warc">
+                <img src="../media/warc.png" alt="WARC Logo">
+                <p>WARC</p>
+            </div>
+            <div class="commspoint">
+                <img src="../media/commspoint.png" alt="Commspoint Logo">
+                <p>Commspoint</p>
+            </div>
+            </div>
+           
+        </div>
     <h1 class="center">My Work</h1>
-    <img class= "hillel" src="../media/lookahead.png" alt="Hillel Look Ahead">
+    
+    <div id="hillel">
+        <img class= "hillel" src="../media/lookahead.png" alt="Hillel Look Ahead">
+    </div>
+    <div id="sixtysecond">
+        <img class="sixtysecond" src="../media/sixtysecond.png" alt="Sixty Second Seminar Graphic">
+    </div>
+    <div id="campaign">
+        <img class="campaign" src="../media/campaign.png" alt="Campaign">
+    </div>
+    <div id="thumbnails">
+        <img class= "circle1" src="../media/circle1.png" alt="circle" id="circle1" onclick="WorkOff(); HillelOn();"> 
+        <img class= "circle2" src="../media/circle2.png" alt="circle" id="circle2" onclick="WorkOff(); SixtySecondOn();"> 
+        <img class= "circle3" src="../media/circle3.png" alt="circle" id="circle3" onclick="WorkOff(); CampaignOn();"> 
+    <footer>
+        <hr>
+        <a href="https://www.linkedin.com/in/starlabirnbaum/" target="_blank"> My LinkedIn Profile </a> 
+        <p>&copy; 2022 Starla Birnbaum, All Rights Reserved </p>
+    </footer>
 </body>
 </html>

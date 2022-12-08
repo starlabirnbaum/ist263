@@ -60,6 +60,8 @@ h1, h2, p, ul {
 }
 .banner {
     display: block;
+    margin-top: 3em;
+    margin-bottom: 3em;
     margin-left: auto;
     margin-right: auto;
 }
@@ -69,31 +71,25 @@ h1, h2, p, ul {
     justify-content: space-around;
     text-align: center;
 }
-.aside {
-    background-color: #FFFCF8;
-    color: #725d4b;
-    border-radius: 1em;
-    flex-basis: 25%;
-    justify-content: flex-end;
-    padding: 20px;
-    width: 50%;
-    margin-right:35px;
-    
-}
-.flexbox2 {
+.fb2, .fb3, .fb4 {
     display: flex;
-    justify-content: center;   
-    margin: 20px;
+    justify-content: center;
+    margin-top: 3em;
+}
+.fb4 {
+    width: 87%;
+    margin: 0 auto;
+    margin-top: 3em;
 }
 .pink {
     background-color:#F5EBEE;
 }
 .intro {
     padding: 2em;
-    margin: 2.5em;
+    margin: 4em;
     color: #725d4b;
 }
-.hillel {
+.hillel, .sixtysecond, .campaign {
     width: 25%;
     display: block;
     margin-left: auto;
@@ -101,4 +97,46 @@ h1, h2, p, ul {
 }
 .center {
     text-align: center;
+    margin-top: 2em;
+}
+
+/*.ps, .in, .xd, .ai, .pr, html, .css, .excel, .gwi, .simmons, .commspoint, .statista, .mintel, .warc { 
+    justify-content: space-around;
+} 
+.ps, .excel {
+    text-align: justify;
+    width: 175px;
+}
+.in, .xd, .ai, .pr, html, .css {
+    text-align: justify;
+    width: 95px;
+}
+*/
+.ps, .in, .xd, .ai, .pr, .canva, .html, .css, .excel, .ms, .gwi, .simmons, .commspoint, .warc, .mintel {
+    display: block;
+    flex: 1;
+    text-align: center;
+}
+.flexbox2 {
+    width: 92%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+.circle1, .circle2, .circle3 {
+   width:2.5%;
+   text-align:center;
+}
+#sixtysecond, #campaign {
+    display: none;
+}
+.hillel1 {
+    float: left;
+}
+.clear {
+    clear: both;
+}
+.sixtysecond1 {
+    float: right;
 }
