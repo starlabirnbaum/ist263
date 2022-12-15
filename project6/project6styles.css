@@ -89,9 +89,6 @@ h1, h2, p, ul {
     margin: 0 auto;
     margin-top: 3em;
 }
-.pink {
-    background-color:#F5EBEE;
-}
 .intro {
     padding: 2em;
     margin: 4em;
@@ -173,4 +170,7 @@ a {
 }
 .skip:focus {
     left: 10px;
+}
+body {
+    background-color:#F5EBEE;
 }
