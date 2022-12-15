@@ -5,14 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Work</title>
+    <link rel="stylesheet" href="project6styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="../media/favicon.ico">
+<script type="text/javascript">
+
+    var images = new Array();
+    
+    function preloadImages(){
+    
+        for (i=0; i < preloadImages.arguments.length; i++){
+    
+             images[i] = new Image();
+    
+            images[i].src = preloadImages.arguments[i];
+    
+        }
+    
+    }
+    
+    preloadImages("../media/lookahead.png", "../media/sixtysecond.png", "../media/campaign.png");
+    
+    </script>
     <nav>
         <a href="index.html">About Me</a> |
         <a href="work.html">My Work</a> | 
         <a href="contact.html">Contact</a> | 
     </nav>
+    <a href="#content" class="skip" tabindex="1">Skip To Content</a><br>
 </head>
-<body>
-        <img class= "hillel1" src="../media/lookahead.png" alt="Hillel Look Ahead">
-        <img class="sixtysecond1" src="../media/sixtysecond.png" alt="Sixty Second Seminar Graphic">
+<main>
+<body class="pink">
+    <div class="work" id="content">
+        <img class= "hillel1" src="../media/lookahead.png" alt="Hillel Look Ahead" height="400" width="400"> 
+        <img class="sixtysecond1" src="../media/sixtysecond.png" alt="Sixty Second Seminar Graphic" height="400" width="400">
+        <iframe class="adv1" src="https://sumailsyr-my.sharepoint.com/personal/srbirnba_syr_edu/_layouts/15/Doc.aspx?sourcedoc={6b6e84d0-5306-4e54-b4f1-51c9c76134d9}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+        <img class="campaign1" src="../media/campaign.png" alt="Campaign" height="500">
+        <iframe class="pawp1" src="https://sumailsyr-my.sharepoint.com/personal/srbirnba_syr_edu/_layouts/15/Doc.aspx?sourcedoc={e93b4de6-9351-4556-8637-2b553a100506}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+    </div>
+</main>
+        <footer>
+            <hr>
+            <a href="https://www.linkedin.com/in/starlabirnbaum/" target="_blank"> My LinkedIn Profile </a> 
+            <p>&copy; 2022 Starla Birnbaum, All Rights Reserved </p>
+        </footer>
 </body>
 </html>

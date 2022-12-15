@@ -10,11 +10,30 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 <link rel="shortcut icon" type="image/x-icon" href="../media/favicon.ico">
-<script>
+<script type="text/javascript"> 
+
+var images = new Array();
+
+function preloadImages(){
+
+    for (i=0; i < preloadImages.arguments.length; i++){
+
+         images[i] = new Image();
+
+        images[i].src = preloadImages.arguments[i];
+
+    }
+
+}
+
+preloadImages("../media/banner.jpg", "../media/pic.png", "../media/ps.png", "../media/indesign.png", "../media/xd.png", "../media/ai.png", "../media/pr.png", "../media/canva.png", "../media/html.png", "../media/css.png", "../media/excel.png", "../media/ms.png", "../media/gwi.png", "../media/mintel.png", "../media/simmons.png", "../media/warc.png", "../media/commspoint.png", "../media/lookahead.png", "../media/sixtysecond.png","../media/campaign.png");
+
        function WorkOff () {
             document.getElementById("hillel").style.display = "none";
             document.getElementById("sixtysecond").style.display = "none";
-            document.getElementById("campaign").style.display = 'none';
+            document.getElementById("adv").style.display = "none";
+            document.getElementById("campaign").style.display = "none";
+            document.getElementById("pawp").style.display = "none";
         }
         function HillelOn () {
             document.getElementById("hillel").style.display = "block";
@@ -22,9 +41,16 @@
         function SixtySecondOn () {
             document.getElementById("sixtysecond").style.display = "block";
         }
+        function AdvOn () {
+            document.getElementById("adv").style.display = "block";
+        }
         function CampaignOn () {
             document.getElementById("campaign").style.display = "block";
         }
+        function PawpOn () {
+            document.getElementById("pawp").style.display = "block";
+        }
+
 </script>
 </head>
 <body>
@@ -33,11 +59,20 @@
         <a href="work.html">My Work</a> | 
         <a href="contact.html">Contact</a> | 
     </nav>
-</head>
+    <header>
+    <a href="#content" class="skip" tabindex="1">Skip To Content</a><br>
+<div class="index">
 <body class="pink">
-    <div class="pink1"><img class="banner" src="../images/Banner.jpg" alt="website banner, photo of me"></div>
-    <p class= "intro"> 
-        Hi! I am Starla Birnbaum, and I am a junior at Syracuse University majoring in Advertising, and double minoring in Information Management and Technology and Political Science. In Advertising, I am extremely interested in the <strong> digital </strong> and <strong> strategy</strong> aspects, and my knowledge of technology and data gives me a complete picture of those parts. Through my Advertising and Graphic Design background, I am proficient in the following softwares:
+    <div class="pink1">
+        <img class="pic1" src="../media/banner.jpg" alt="website banner, photo of me"> 
+    <img class="pic2" src="../media/pic.png" alt= "photo of me"></div>
+</header>
+<main>
+    <section>
+    <p class= "intro" id="content"> 
+        Hi! I am Starla Birnbaum, and I am a junior at Syracuse University majoring in Advertising, and double minoring in Information Management and Technology and Political Science. In Advertising, I am extremely interested in the digital and strategy aspects, and my knowledge of technology and data gives me a complete picture of those parts. Through my Advertising and Graphic Design background, I am proficient in the following softwares:
+    </section>
+    <section>
     </p> 
     <div class="flexbox2">
         <div class= "fb2">
@@ -109,6 +144,8 @@
             </div>
            
         </div>
+    </section>
+    <section>
     <h1 class="center">My Work</h1>
     
     <div id="hillel">
@@ -117,14 +154,25 @@
     <div id="sixtysecond">
         <img class="sixtysecond" src="../media/sixtysecond.png" alt="Sixty Second Seminar Graphic">
     </div>
+    <div id="adv">
+        <iframe class="adv" src="https://sumailsyr-my.sharepoint.com/personal/srbirnba_syr_edu/_layouts/15/Doc.aspx?sourcedoc={6b6e84d0-5306-4e54-b4f1-51c9c76134d9}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+    </div>
     <div id="campaign">
         <img class="campaign" src="../media/campaign.png" alt="Campaign">
+    </div>
+    <div id="pawp">
+        <iframe class="pawp" src="https://sumailsyr-my.sharepoint.com/personal/srbirnba_syr_edu/_layouts/15/Doc.aspx?sourcedoc={e93b4de6-9351-4556-8637-2b553a100506}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
     </div>
     <div id="thumbnails">
         <img class= "circle1" src="../media/circle1.png" alt="circle" id="circle1" onclick="WorkOff(); HillelOn();"> 
         <img class= "circle2" src="../media/circle2.png" alt="circle" id="circle2" onclick="WorkOff(); SixtySecondOn();"> 
-        <img class= "circle3" src="../media/circle3.png" alt="circle" id="circle3" onclick="WorkOff(); CampaignOn();"> 
+        <img class= "circle3" src="../media/circle3.png" alt="circle" id="circle3" onclick="WorkOff(); AdvOn();"> 
+        <img class= "circle4" src="../media/circle4.png" alt="circle" id="circle4" onclick="WorkOff(); CampaignOn();"> 
+        <img class= "circle5" src="../media/circle5.png" alt="circle" id="circle5" onclick="WorkOff(); PawpOn();">       
     </div>
+</div>
+</section>
+</main>
     <footer>
         <hr>
         <a href="https://www.linkedin.com/in/starlabirnbaum/" target="_blank"> My LinkedIn Profile </a> 
