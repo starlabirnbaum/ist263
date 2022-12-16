@@ -31,14 +31,14 @@ function preloadImages(){
 
 }
 
-preloadImages("../media/banner.jpg", "../media/pic.png", "../media/ps.png", "../media/indesign.png", "../media/xd.png", "../media/ai.png", "../media/pr.png", "../media/canva.png", "../media/html.png", "../media/css.png", "../media/excel.png", "../media/ms.png", "../media/gwi.png", "../media/mintel.png", "../media/simmons.png", "../media/warc.png", "../media/commspoint.png", "../media/lookahead.png", "../media/sixtysecond.png","../media/campaign.png");
+preloadImages("../media/banner.jpg", "../media/pic.png", "../media/ps.png", "../media/indesign.png", "../media/xd.png", "../media/ai.png", "../media/pr.png", "../media/canva.png", "../media/html.png", "../media/css.png", "../media/excel.png", "../media/ms.png", "../media/gwi.png", "../media/mintel.png", "../media/simmons.png", "../media/warc.png", "../media/commspoint.png", "../media/lookahead.png", "../media/sixtysecond.png", "../media/mag.png", "../media/campaign.png","../media/pinks.png");
 
        function WorkOff () {
             document.getElementById("hillel").style.display = "none";
             document.getElementById("sixtysecond").style.display = "none";
-            document.getElementById("adv").style.display = "none";
+            document.getElementById("mag").style.display = "none";
             document.getElementById("campaign").style.display = "none";
-            document.getElementById("pawp").style.display = "none";
+            document.getElementById("pinks").style.display = "none";
         }
         function HillelOn () {
             document.getElementById("hillel").style.display = "block";
@@ -46,14 +46,14 @@ preloadImages("../media/banner.jpg", "../media/pic.png", "../media/ps.png", "../
         function SixtySecondOn () {
             document.getElementById("sixtysecond").style.display = "block";
         }
-        function AdvOn () {
-            document.getElementById("adv").style.display = "block";
+        function MagOn () {
+            document.getElementById("mag").style.display = "block";
         }
         function CampaignOn () {
             document.getElementById("campaign").style.display = "block";
         }
-        function PawpOn () {
-            document.getElementById("pawp").style.display = "block";
+        function PinksOn () {
+            document.getElementById("pinks").style.display = "block";
         }
 
 </script>
@@ -158,21 +158,21 @@ preloadImages("../media/banner.jpg", "../media/pic.png", "../media/ps.png", "../
     <div id="sixtysecond">
         <img class="sixtysecond" src="../media/sixtysecond.png" alt="Sixty Second Seminar Graphic">
     </div>
-    <div id="adv">
-        <iframe class="adv" src="https://sumailsyr-my.sharepoint.com/personal/srbirnba_syr_edu/_layouts/15/Doc.aspx?sourcedoc={6b6e84d0-5306-4e54-b4f1-51c9c76134d9}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+    <div id="mag">
+        <img class="mag" src="../media/mag.png" alt="Magazine Cover">
     </div>
     <div id="campaign">
         <img class="campaign" src="../media/campaign.png" alt="Campaign">
     </div>
-    <div id="pawp">
-        <iframe class="pawp" src="https://sumailsyr-my.sharepoint.com/personal/srbirnba_syr_edu/_layouts/15/Doc.aspx?sourcedoc={e93b4de6-9351-4556-8637-2b553a100506}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+    <div id="pinks">
+        <img class="pinks" src="../media/pinks.png" alt="Pink Shabbat Graphic">
     </div>
     <div id="thumbnails">
         <img class= "circle1" src="../media/circle1.png" alt="circle" id="circle1" onclick="WorkOff(); HillelOn();"> 
         <img class= "circle2" src="../media/circle2.png" alt="circle" id="circle2" onclick="WorkOff(); SixtySecondOn();"> 
-        <img class= "circle3" src="../media/circle3.png" alt="circle" id="circle3" onclick="WorkOff(); AdvOn();"> 
+        <img class= "circle3" src="../media/circle3.png" alt="circle" id="circle3" onclick="WorkOff(); MagOn()"> 
         <img class= "circle4" src="../media/circle4.png" alt="circle" id="circle4" onclick="WorkOff(); CampaignOn();"> 
-        <img class= "circle5" src="../media/circle5.png" alt="circle" id="circle5" onclick="WorkOff(); PawpOn();">       
+        <img class= "circle5" src="../media/circle5.png" alt="circle" id="circle5" onclick="WorkOff(); PinksOn();">       
     </div>
 </section>
 </main>
